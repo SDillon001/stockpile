@@ -24,9 +24,9 @@ if (!mysqli_query($conn, $sql))
 }
 
 //Close the connection
-mysql_close($conn);
+mysqli_close($conn);
 
 // To redirect form on a particular page
-header("Location:http://stevedillon.net/WNM/608/14_1/inventory.php");
+header("Location:http://stevedillon.net/WNM/608/14_1_Final/inventory.php");
 
 ?>
