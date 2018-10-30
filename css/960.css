@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* Author: Steve Dillon
+WNM 608 OL1: MS: WEB TECHNOLOGY 1
+Assignment 6.1: Midterm Project: Refine and Implement Site Design
+Created: 10/18/15
+*/
+
+
+@media screen and (max-width: 960px) {
+
+.srch {
+
+        display: none;
+
+    }
+
+.clear {
+
+    padding: 0px 0px;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+.clear img {
+    
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 10px;
+}
+
+    
+#sidebar {
+
+    width: 40%;
+    margin-left: 10%;
+    padding-right: 45px;
+}
+
+#sidebar3 {
+
+    width: 90%;
+
+}
+
+.product img {
+    width: 95%;
+    float: left;
+    border-radius: 8px;
+}
+
+figure.map {
+
+    
+    padding: 0px 5px;
+    margin-left: 35%;
+    margin-top: 4%;
+    
+}
+
+
+#caption {
+
+    width: 35%;
+
+    }
+
+    form {
+
+    margin-left: 15%;
+    
+    }
+
+
+    .pack img {
+ 
+    margin-left: 0%;
+
+}
+
+}

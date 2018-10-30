@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* Author: Steve Dillon
+WNM 608 OL1: MS: WEB TECHNOLOGY 1
+Assignment 6.1: Midterm Project: Refine and Implement Site Design
+Created: 10/18/15
+*/
+
+/*
+*, *:before, *:after {
+border: 1px solid red;
+}
+*/
+
+
+@media screen and (max-width: 524px) {
+
+
+.wrapper {
+
+	width: 100%
+
+}
+
+.clear {
+
+    width: 100%;
+
+}
+
+.clear img {
+ 
+ 	width:80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+}
+
+
+#sidebar_2 h4 {
+ 
+   margin-bottom: 3%;
+}
+
+.product {
+
+    width: 25%;
+    margin: 2.5%;
+
+}
+
+.product p {
+
+    margin-left: 30%;
+    font-size: .6em;
+
+}
+
+.details p {
+    width: 100%;
+    font-size: 1em;
+    margin-left: 25%;
+}
+
+
+    
+.toggle-menu:checked + ul {
+		
+	margin-left: 5%;
+    width: 90%;
+
+	}
+
+	.nav a {
+
+    padding: 0px 8px;
+
+}
+
+
+form {
+
+	margin-left: 23%;
+	text-align: left;
+}
+
+.form2 {
+
+    width: 90%;
+    margin-left: 4%;
+    	
+}
+
+.logo img {
+
+ display: none;
+
+}
+
+h1, h2, h3, h4 {
+
+width: 100%;
+
+}
+
+#sidebar {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    clear: both;
+
+
+}
+
+.slider.home {
+
+	width: 100%;
+
+
+}
+
+.flexslider {
+
+	width: 98%;
+
+}
+
+#caption {
+
+	width: 90%;
+	text-align: left-justify;
+	 margin-left: 5%;
+
+
+}
+
+figure.map {
+    
+    width: 65%;
+    margin-left: 15%;
+
+}
+
+.product img {
+
+    width: 65%;
+    margin-left: 15%;
+ 
+
+    }
+
+    .pack img {
+ 
+    width: 45%;
+    margin-left: 25%;
+
+}
