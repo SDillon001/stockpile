@@ -25,7 +25,7 @@ if(mysqli_num_rows($result)){
 
 //Output data in JSON format
 header('Content-type: application/json');
-echo json_encode($Products);
+echo json_encode(array('Product'=>$Products));
 
 // switch (json_last_error()) {
 //   case JSON_ERROR_NONE:
